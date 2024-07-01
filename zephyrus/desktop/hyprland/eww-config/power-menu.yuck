@@ -1,0 +1,21 @@
+(defwindow power-menu
+  :monitor 0
+  :geometry (geometry
+    :width "500px"
+    :height "200px"
+    :anchor "center")
+  :stacking "fg"
+  :focusable false
+  (box :class "power-menu" :space-evenly true
+    (button :class "logout" :onclick "hyprctl dispatch exit" "󰍃")
+    (button :class "reboot" :onclick "reboot" "")
+    (button :class "poweroff" :onclick "poweroff" "⏻")))
+
+(defwindow power-menu-closer
+  :monitor 0
+  :geometry (geometry
+    :width "100%"
+    :height "100%"
+    :focusable false)
+  :stacking "fg"
+  (eventbox :onclick "eww close power-menu && eww close power-menu-closer"))
