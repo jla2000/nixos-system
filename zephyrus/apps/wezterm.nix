@@ -39,8 +39,6 @@
       config.font_size = ${builtins.toString config.wezterm.fontSize}
       config.color_scheme = "${config.wezterm.colorScheme}"
 
-      config.default_prog = { "wsl.exe", "--cd", "~" }
-
       config.keys = {
       	{
       		key = "r",

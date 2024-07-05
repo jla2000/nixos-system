@@ -23,7 +23,7 @@
       };
     in
     {
-      nixosConfigurations."zephyrus-v2" = nixpkgs.lib.nixosSystem {
+      nixosConfigurations."zephyrus" = nixpkgs.lib.nixosSystem {
         inherit system;
         specialArgs = { inherit inputs pkgs; };
         modules = [

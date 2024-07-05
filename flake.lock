@@ -678,11 +678,11 @@
         "zellij": "zellij"
       },
       "locked": {
-        "lastModified": 1719867796,
-        "narHash": "sha256-g2aATOIx0UDqDj1AYAY6UkhG8OHl9pw4D6n6NbvwWrU=",
+        "lastModified": 1720166589,
+        "narHash": "sha256-bGmce43LJ9GiieHAgNcYqgAC4SDXxDcy6tVv2t9YpMI=",
         "owner": "jla2000",
         "repo": "nixos-dotfiles",
-        "rev": "feeb0754c57f67e2b777aaf7c9a35e624436bd06",
+        "rev": "77159735b17b3254079932a984fa72381cc191ef",
         "type": "github"
       },
       "original": {

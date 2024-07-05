@@ -103,7 +103,7 @@
   users.users.jan = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
-    shell = pkgs.fish;
+    shell = pkgs.bash;
   };
 
   environment.systemPackages = with pkgs; [

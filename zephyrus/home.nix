@@ -5,6 +5,7 @@
     ./desktop/i3
     inputs.nixos-dotfiles.homeManagerModules.neovim
     inputs.nixos-dotfiles.homeManagerModules.zellij
+    inputs.nixos-dotfiles.homeManagerModules.bash
   ];
 
   home = {
