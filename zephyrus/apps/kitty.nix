@@ -9,6 +9,9 @@
       TERM = "xterm-256color";
     };
     #theme = "One Dark";
-    settings.window_padding_width = 2;
+    settings = {
+      window_padding_width = 2;
+      cursor_shape = "block";
+    };
   };
 }
