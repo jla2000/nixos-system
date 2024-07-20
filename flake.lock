@@ -448,16 +448,15 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1718908358,
-        "narHash": "sha256-4qP6PLTxWXX9FAhh2S+tEy4JkJExXcC163qq9jHwY64=",
-        "owner": "jla2000",
+        "lastModified": 1721100689,
+        "narHash": "sha256-ALcANRhsPzmY8CNvXWWxI5yc72cH9v6t49N7S+spBqs=",
+        "owner": "helix-editor",
         "repo": "helix",
-        "rev": "35faa5baed140e3493bbfbf932b029e8f00b7833",
+        "rev": "22a051408a467ff8b3e43457961d5497903dc7d0",
         "type": "github"
       },
       "original": {
-        "owner": "jla2000",
-        "ref": "rounded-corners",
+        "owner": "helix-editor",
         "repo": "helix",
         "type": "github"
       }
@@ -679,11 +678,11 @@
         "zellij": "zellij"
       },
       "locked": {
-        "lastModified": 1720774312,
-        "narHash": "sha256-IzkareRYDH5LNi6bjR4w7g8OgqfpOyDzodjNqV9tsKo=",
+        "lastModified": 1721284120,
+        "narHash": "sha256-bljV71zGGTy8GjeN85Zbzqrixw9X46IzKnnrtem2M9I=",
         "owner": "jla2000",
         "repo": "nixos-dotfiles",
-        "rev": "e1804195fa27b7eefd238b83444e7c2cf0f05e22",
+        "rev": "bb610d24910de53bc330ae454764c0c1f2b94512",
         "type": "github"
       },
       "original": {

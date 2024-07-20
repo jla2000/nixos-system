@@ -9,7 +9,7 @@ let
   toggle-touchpad = pkgs.writeShellApplication {
     name = "toggle-touchpad.sh";
     text = ''
-      if xinput list-props 13 | grep "Device Enabled (170):.*1" >/dev/null
+      if xinput list-props 13 | grep "Device Enabled (.*):.*1" >/dev/null
       then
         xinput disable 13
         notify-send -u low -i mouse "Touchpad disabled"
