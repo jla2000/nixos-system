@@ -675,14 +675,15 @@
         "nixpkgs": "nixpkgs_6",
         "oil-nvim": "oil-nvim",
         "pre-commit-hooks": "pre-commit-hooks_2",
+        "tid-nvim": "tid-nvim",
         "zellij": "zellij"
       },
       "locked": {
-        "lastModified": 1720166589,
-        "narHash": "sha256-bGmce43LJ9GiieHAgNcYqgAC4SDXxDcy6tVv2t9YpMI=",
+        "lastModified": 1720774312,
+        "narHash": "sha256-IzkareRYDH5LNi6bjR4w7g8OgqfpOyDzodjNqV9tsKo=",
         "owner": "jla2000",
         "repo": "nixos-dotfiles",
-        "rev": "77159735b17b3254079932a984fa72381cc191ef",
+        "rev": "e1804195fa27b7eefd238b83444e7c2cf0f05e22",
         "type": "github"
       },
       "original": {
@@ -1026,6 +1027,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "tid-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1720556960,
+        "narHash": "sha256-j7qNV4BFH6xH/0r9vORBHIdt1jcJ1Nz6xu95R9HGtmo=",
+        "owner": "rachartier",
+        "repo": "tiny-inline-diagnostic.nvim",
+        "rev": "ef4cf9a918fd1d397bc23905ac9eff202ab4894d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rachartier",
+        "repo": "tiny-inline-diagnostic.nvim",
         "type": "github"
       }
     },

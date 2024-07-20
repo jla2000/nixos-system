@@ -97,7 +97,6 @@
   services.btrfs.autoScrub.enable = lib.mkDefault
     (builtins.any (filesystem: filesystem.fsType == "btrfs")
       (builtins.attrValues config.fileSystems));
-  programs.fish.enable = true;
 
   # Default user
   users.users.jan = {
